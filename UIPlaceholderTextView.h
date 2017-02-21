@@ -9,16 +9,16 @@
 //  http://creativecommons.org/licenses/by-sa/3.0/
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 /**
  *  A textview with placeholder text.
  */
 @interface UIPlaceHolderTextView : UITextView
 
-@property (nonatomic, retain) NSString *placeholder;
-@property (nonatomic, retain) UIColor *placeholderColor;
+@property (nonatomic, retain, nullable) NSString *placeholder;
+@property (nonatomic, retain, nullable) UIColor *placeholderColor;
 
--(void)textChanged:(NSNotification*)notification;
+-(void)textChanged:(nullable NSNotification*)notification;
 
 @end
