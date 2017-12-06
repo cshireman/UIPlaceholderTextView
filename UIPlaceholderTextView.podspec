@@ -9,15 +9,15 @@ Pod::Spec.new do |s|
   s.license          = 'Creative Commons Attribution-ShareAlike 3.0 Unported License (CC BY-SA 3.0)'
   s.author           = { "Daniel Blakemore" => "DanBlakemore@gmail.com" }
   s.source = {
-   :git => "https://github.com/pixio/UIPlaceholderTextView.git",
+   :git => "https://github.com/cshireman/UIPlaceholderTextView.git",
    :tag => s.version.to_s
   }
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
 
-  s.source_files = 'UIPlaceholderTextView.{h,m}'
+  s.source_files = 'UIPlaceholderTextView/UIPlaceholderTextView.{h,m}'
 
-  s.public_header_files = 'UIPlaceholderTextView.h'
+  s.public_header_files = 'UIPlaceholderTextView/UIPlaceholderTextView.h'
   s.frameworks = 'UIKit'
 end
